@@ -1,9 +1,10 @@
 <?php
-    $num1 = $_GET["cxn1"];
-    $num2 = $_GET["cxn2"];
-    $num3 = $_GET["cxn3"];
+$numero1 = $_GET['numero1'];
+$numero2 = $_GET['numero2'];
+$numero3 = $_GET['numero3'];
 
-    if ($num1 > $num2 && $num3):
-        echo "O maior é o primeiro número"
-        
+$maior = max($numero1, $numero2, $numero3);
+
+echo "<h2>Resultado:</h2>";
+echo "<p>O maior número é: $maior</p>";
 ?>
