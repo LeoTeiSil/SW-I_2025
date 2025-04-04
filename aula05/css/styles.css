@@ -11044,3 +11044,9 @@ html {
 .copyright {
   background-color: #1a252f;
 }
+
+.img-fixed {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
