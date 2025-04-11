@@ -1,0 +1,16 @@
+table {
+    border-collapse: collapse;
+  }
+  td, th {
+    border: 1px solid black;
+    padding: 8px;
+  }
+  .Eletrônico {
+    background-color: #9de0ee;
+  }
+  .Roupas {
+    background-color: #f06969;
+  }
+  .Veículo {
+    background-color: #98dd98;
+  }
